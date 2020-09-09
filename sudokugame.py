@@ -1,7 +1,7 @@
 import pygame
 import time
 from sudoku import Sudoku
-import random
+#import random
 
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
@@ -57,6 +57,7 @@ class grid:
 	]"""
 
 	board=Sudoku(3).difficulty(0.5).board
+	#board=Sudoku(3).difficulty(random.random()).board
 
 	for i in range(9):
 		for j in range(9):
